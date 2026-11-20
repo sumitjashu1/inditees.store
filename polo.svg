@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 750" role="img" aria-label="Illustrative T-shirt mockup">
+    <defs>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2=".9"><stop offset="0" stop-color="#475149"/><stop offset=".32" stop-color="#252b27"/><stop offset=".75" stop-color="#252b27"/><stop offset="1" stop-color="#111814"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#000" stop-opacity=".15"/><stop offset=".18" stop-color="#fff" stop-opacity=".1"/><stop offset=".77" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+    <linearGradient id="sleeve" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#000" stop-opacity=".15"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".05"/></feComponentTransfer></filter>
+    <clipPath id="clip"><path d="M222 125 L290 101 Q326 139 360 138 Q394 139 430 101 L498 125 L586 215 L532 301 L476 264 L478 616 Q359 644 242 616 L244 264 L188 301 L134 215 Z"/></clipPath>
+    </defs>
+    <ellipse cx="368" cy="657" rx="220" ry="32" fill="#2d251c" opacity=".12" filter="url(#shadow)"/>
+    <path d="M222 125 L290 101 Q326 139 360 138 Q394 139 430 101 L498 125 L586 215 L532 301 L476 264 L478 616 Q359 644 242 616 L244 264 L188 301 L134 215 Z" fill="url(#cloth)" stroke="#111814" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M222 125 L290 101 Q326 139 360 138 Q394 139 430 101 L498 125 L586 215 L532 301 L476 264 L478 616 Q359 644 242 616 L244 264 L188 301 L134 215 Z" fill="url(#shade)" opacity=".6"/>
+    <g clip-path="url(#clip)">
+      <path d="M232 116 L268 247 L244 615" stroke="#fff" stroke-width="12" opacity=".15" fill="none"/>
+      <path d="M489 120 L462 266 L477 618" stroke="#171714" stroke-width="12" opacity=".08" fill="none"/>
+      <path d="M134 216 L190 280 L248 256 M586 216 L530 280 L473 256" fill="none" stroke="#171714" stroke-width="5" opacity=".12"/>
+      <path d="M248 600 Q355 616 475 600" fill="none" stroke="#111" stroke-width="2" opacity=".11"/>
+      <path d="M270 278 Q290 404 272 550 M446 267 Q431 415 455 558" stroke="#000" stroke-width="9" opacity=".045" fill="none"/>
+      <path d="M190 250 Q230 237 254 245 M529 250 Q494 237 474 245" stroke="#fff" stroke-width="9" opacity=".1" fill="none"/>
+      <rect x="110" y="80" width="520" height="570" filter="url(#grain)" opacity=".5"/>
+    </g>
+    <path d="M286 100 L320 112 L360 141 L400 112 L434 100 L410 83 L360 105 L310 83 Z" fill="#242522" stroke="#10110f" stroke-width="3"/><path d="M309 84 L357 104 L344 153 L302 127 Z" fill="#353630" stroke="#171813" stroke-width="2"/><path d="M411 84 L363 104 L376 153 L418 127 Z" fill="#3a3b34" stroke="#171813" stroke-width="2"/><path d="M361 115 L361 207" stroke="#1a1a18" stroke-width="2"/><circle cx="361" cy="171" r="3" fill="#eee"/><circle cx="361" cy="195" r="3" fill="#eee"/>
+    <text x="430" y="268" text-anchor="middle" fill="#dedcc8" font-family="Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="-1">I.</text>
+    </svg>

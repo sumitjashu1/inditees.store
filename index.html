@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#11110f" />
+  <meta name="description" content="INDITEES — everyday essentials, premium T-shirts, custom printing and bulk orders. Browse styles and order directly on WhatsApp." />
+  <meta property="og:title" content="INDITEES — Wear Your Own Story" />
+  <meta property="og:description" content="Premium T-shirts, custom printing and bulk orders. Explore the collection." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://inditees.store/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>INDITEES — Premium T-Shirts & Custom Printing</title>
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar"><span class="topbar-star">✳</span> CUSTOM PRINTING · EVERYDAY ESSENTIALS · BULK ORDERS <span class="topbar-star">✳</span></div>
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a class="logo" href="#top" aria-label="INDITEES home">INDI<span>TEES</span><i class="logo-dot"></i></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#collection">Collection</a><a href="#custom">Custom Printing</a><a href="#why-us">Why Inditees</a><a href="#faq">FAQs</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="text-link whatsapp-trigger" type="button" data-message="Hi INDITEES! I'd like to know more about your T-shirts.">LET'S TALK <span aria-hidden="true">↗</span></button>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#collection">Collection</a><a href="#custom">Custom Printing</a><a href="#why-us">Why Inditees</a><a href="#faq">FAQs</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> INTRODUCING INDITEES / EST. WITH PURPOSE</div>
+          <h1 id="hero-heading">NOT JUST<br><em>A TEE.</em><br>YOUR <span class="outline-word">STORY.</span></h1>
+          <p>Everyday comfort. Premium details. A style that's entirely yours. Explore T-shirts made for the way you show up.</p>
+          <div class="hero-buttons"><a class="btn btn-dark" href="#collection">EXPLORE COLLECTION <span aria-hidden="true">↗</span></a><a class="btn btn-line" href="#custom">CUSTOMIZE YOURS <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-bottom"><span class="tiny-line"></span> YOUR STYLE. YOUR RULES. <span class="hero-bottom-mark">IND / 01</span></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a premium off-white T-shirt">
+          <div class="hero-grid"></div><div class="hero-oval"></div><span class="art-caption">THE EVERYDAY<br>EDIT.</span>
+          <img src="assets/hero-tee.svg" alt="Illustrative cream premium T-shirt mockup" />
+          <div class="hero-art-number">01 <span>/ 04</span></div>
+          <div class="hero-vertical">INDITEES / MADE TO STAND OUT</div>
+          <div class="hero-circle"><span>WEAR<br>YOUR<br>STORY</span><b>↗</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="What we offer"><div class="ticker-track"><span>PREMIUM FABRICS</span><b>✳</b><span>CUSTOM PRINTING</span><b>✳</b><span>EVERYDAY ESSENTIALS</span><b>✳</b><span>BULK ORDERS</span><b>✳</b><span>PREMIUM FABRICS</span><b>✳</b><span>CUSTOM PRINTING</span><b>✳</b><span>EVERYDAY ESSENTIALS</span><b>✳</b><span>BULK ORDERS</span><b>✳</b></div></section>
+
+    <section class="section collection-section" id="collection" aria-labelledby="collection-heading">
+      <div class="container">
+        <div class="section-top"><div><div class="kicker">01 / THE COLLECTION</div><h2 id="collection-heading">MADE FOR <em>EVERY DAY.</em></h2></div><p>Clean fits, comfortable fabrics, and a look you can make your own. Pick your style and we'll help with the rest.</p></div>
+        <div class="filters" role="group" aria-label="Filter products"><button type="button" class="filter active" data-filter="all" aria-pressed="true">ALL STYLES <span>04</span></button><button type="button" class="filter" data-filter="essentials" aria-pressed="false">ESSENTIALS</button><button type="button" class="filter" data-filter="premium" aria-pressed="false">PREMIUM</button><button type="button" class="filter" data-filter="custom" aria-pressed="false">CUSTOM</button></div>
+        <div class="products" id="products" aria-live="polite"></div>
+        <p class="mockup-note">Product visuals are illustrative mockups. Ask us for actual product photos, available colours, stock and final pricing before ordering.</p>
+      </div>
+    </section>
+
+    <section class="custom-section" id="custom" aria-labelledby="custom-heading">
+      <div class="container custom-layout">
+        <div class="custom-graphic"><span class="graphic-word graphic-word-one">CREATE.</span><span class="graphic-word graphic-word-two">EXPRESS.</span><div class="graphic-ring"><span>YOUR IDEA<br>YOUR TEE</span><b>✳</b></div><span class="graphic-small">INDITEES / CUSTOM STUDIO</span></div>
+        <div class="custom-content"><div class="kicker light-kicker">02 / MAKE IT YOURS</div><h2 id="custom-heading">YOUR IDEA.<br><em>OUR CANVAS.</em></h2><p>From a single personalized tee to matching outfits for your team, events or business — tell us what you're imagining.</p><div class="custom-features"><span><b>01</b> Personalised prints</span><span><b>02</b> Team & event orders</span><span><b>03</b> Bulk enquiries</span></div><button type="button" class="btn btn-cream whatsapp-trigger" data-message="Hi INDITEES! I want to enquire about custom T-shirt printing. Please share the options and pricing.">START A CUSTOM ORDER <span aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="section trust-section" id="why-us" aria-labelledby="trust-heading"><div class="container"><div class="section-top"><div><div class="kicker">03 / SHOP WITH CLARITY</div><h2 id="trust-heading">REAL PEOPLE.<br><em>REAL PROCESS.</em></h2></div><p>We're an online-first brand. No showroom needed to keep things clear — ask questions, check details and stay updated on your order.</p></div><div class="trust-grid"><article class="trust-item"><div class="trust-icon">01 <span>↗</span></div><h3>ASK FOR REAL PHOTOS</h3><p>Request actual product photos or videos before you place an order.</p></article><article class="trust-item"><div class="trust-icon">02 <span>↗</span></div><h3>CONFIRM THE DETAILS</h3><p>We discuss size, colour, design, quantity and total cost with you before confirmation.</p></article><article class="trust-item"><div class="trust-icon">03 <span>↗</span></div><h3>STAY UPDATED</h3><p>Ask about dispatch status and receive courier tracking details when your order ships.</p></article></div></div></section>
+
+    <section class="how-section"><div class="container how-layout"><div><div class="kicker">04 / SIMPLE ORDERING</div><h2>THREE STEPS.<br><em>ONE GREAT TEE.</em></h2></div><div class="steps"><div class="step"><b>01</b><div><h3>CHOOSE YOUR STYLE</h3><p>Browse the collection and select your preferred size, colour and quantity.</p></div></div><div class="step"><b>02</b><div><h3>CHAT ON WHATSAPP</h3><p>Send your order details directly to INDITEES and confirm availability and pricing.</p></div></div><div class="step"><b>03</b><div><h3>CONFIRM & GET UPDATES</h3><p>Agree on payment and delivery details before placing the order.</p></div></div></div></div></section>
+
+    <section class="section faq-section" id="faq"><div class="container faq-layout"><div><div class="kicker">05 / GOOD TO KNOW</div><h2>QUESTIONS?<br><em>WE GOT YOU.</em></h2><p>Want to know something else? Just message us.</p><button type="button" class="simple-arrow whatsapp-trigger" data-message="Hi INDITEES! I have a question about your products.">ASK US ON WHATSAPP <span aria-hidden="true">↗</span></button></div><div class="faqs"><details><summary>Do you have a physical shop? <span>+</span></summary><p>INDITEES currently operates as an online-first business. You can request product photos and discuss your order with us on WhatsApp before confirming.</p></details><details><summary>Can I order a custom design? <span>+</span></summary><p>Yes. Share your design idea, preferred T-shirt, size, colour and quantity. We'll discuss printing options and provide a quote.</p></details><details><summary>Can I place a bulk order? <span>+</span></summary><p>Yes, bulk enquiries are welcome. Send us your required quantity, sizes and design requirements for a quotation.</p></details><details><summary>How do payment and delivery work? <span>+</span></summary><p>Payment method, shipping charges, expected dispatch date and any return or exchange terms are confirmed directly before you pay.</p></details></div></div></section>
+
+    <section class="last-cta"><div class="container last-cta-inner"><div class="kicker light-kicker">YOUR NEXT FAVOURITE TEE STARTS HERE</div><h2>READY TO<br><em>STAND OUT?</em></h2><button type="button" class="btn btn-cream whatsapp-trigger" data-message="Hi INDITEES! I want to shop your T-shirt collection. Please help me place an order.">LET'S MAKE IT HAPPEN <span aria-hidden="true">↗</span></button><span class="last-cta-mark">INDITEES ✳</span></div></section>
+  </main>
+
+  <footer><div class="container footer-top"><div><a class="footer-logo" href="#top">INDITEES<span>✳</span></a><p>Everyday essentials.<br>Personal expression.</p></div><div class="footer-links"><div><h3>EXPLORE</h3><a href="#collection">Collection</a><a href="#custom">Custom Printing</a><a href="#why-us">Our Process</a></div><div><h3>CONNECT</h3><a id="instagram-link" href="https://www.instagram.com/inditees.shop/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><button type="button" class="whatsapp-trigger" data-message="Hi INDITEES! I'd like to connect.">WhatsApp ↗</button><a href="#faq">FAQs</a></div></div></div><div class="container footer-bottom"><span>© <span id="year"></span> INDITEES. ALL RIGHTS RESERVED.</span><span>ONLINE-FIRST CLOTHING BRAND · INDIA</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+  <div class="modal-backdrop" id="order-modal" hidden><div class="order-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-heading"><button type="button" class="modal-close" id="modal-close" aria-label="Close">×</button><div class="kicker">INDITEES / ORDER ENQUIRY</div><h2 id="dialog-heading">MAKE IT <em>YOURS.</em></h2><p class="modal-intro">Choose your options. We'll confirm stock, final price and delivery on WhatsApp.</p><form id="order-form"><div class="selected-product"><img id="modal-product-image" src="assets/round-neck.svg" alt="" /><div><strong id="modal-product-name">Product</strong><span id="modal-product-fabric"></span></div></div><div class="field-grid"><label>SIZE<select id="size" required></select></label><label>COLOUR<select id="color" required></select></label></div><div class="field-grid"><label>QUANTITY<input type="number" id="quantity" min="1" max="10000" value="1" required /></label><label>YOUR NAME (OPTIONAL)<input type="text" id="customer-name" maxlength="60" placeholder="Name" /></label></div><label>PRINT / DESIGN NOTES (OPTIONAL)<textarea id="notes" rows="3" maxlength="500" placeholder="Tell us your design idea or any special requests..."></textarea></label><button type="submit" class="btn btn-dark submit-order">SEND ENQUIRY ON WHATSAPP <span>↗</span></button><p class="form-note">No payment is collected on this website. Your WhatsApp message is prepared for review before sending.</p></form></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <a class="floating-chat whatsapp-trigger" href="#" data-message="Hi INDITEES! I'd like to enquire about your T-shirts." aria-label="Chat with INDITEES on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .9A15 15 0 0 0 3 23.4L1 31l7.8-2a15.1 15.1 0 1 0 7.2-28.1Zm0 27.3c-2.3 0-4.5-.6-6.4-1.8l-.5-.3-4.6 1.2 1.2-4.5-.3-.5a12.3 12.3 0 1 1 10.6 5.9Zm6.8-9.2c-.4-.2-2.3-1.1-2.7-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.2-.5.3-.9.1-.4-.2-1.7-.6-3.2-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2 0-.5 0-.7l-1.2-2.8c-.3-.7-.6-.6-.9-.6h-.8c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.8c.2.2 2.6 4 6.3 5.6.9.4 1.6.6 2.1.7.9.3 1.8.3 2.5.2.8-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5Z"/></svg><span>CHAT WITH US</span></a>
+</body>
+</html>

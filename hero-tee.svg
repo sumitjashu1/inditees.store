@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 750" role="img" aria-label="Illustrative T-shirt mockup">
+    <defs>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2=".9"><stop offset="0" stop-color="#fffef7"/><stop offset=".32" stop-color="#e6e0d4"/><stop offset=".75" stop-color="#e6e0d4"/><stop offset="1" stop-color="#b9b1a1"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#000" stop-opacity=".15"/><stop offset=".18" stop-color="#fff" stop-opacity=".1"/><stop offset=".77" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+    <linearGradient id="sleeve" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#000" stop-opacity=".15"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".05"/></feComponentTransfer></filter>
+    <clipPath id="clip"><path d="M207 123 L286 99 Q324 141 360 141 Q396 141 434 99 L513 123 L602 227 L531 311 L480 270 L490 615 Q360 643 230 615 L240 270 L189 311 L118 227 Z"/></clipPath>
+    </defs>
+    <ellipse cx="368" cy="657" rx="220" ry="32" fill="#2d251c" opacity=".12" filter="url(#shadow)"/>
+    <path d="M207 123 L286 99 Q324 141 360 141 Q396 141 434 99 L513 123 L602 227 L531 311 L480 270 L490 615 Q360 643 230 615 L240 270 L189 311 L118 227 Z" fill="url(#cloth)" stroke="#b9b1a1" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M207 123 L286 99 Q324 141 360 141 Q396 141 434 99 L513 123 L602 227 L531 311 L480 270 L490 615 Q360 643 230 615 L240 270 L189 311 L118 227 Z" fill="url(#shade)" opacity=".6"/>
+    <g clip-path="url(#clip)">
+      <path d="M232 116 L268 247 L244 615" stroke="#fff" stroke-width="12" opacity=".15" fill="none"/>
+      <path d="M489 120 L462 266 L477 618" stroke="#171714" stroke-width="12" opacity=".08" fill="none"/>
+      <path d="M134 216 L190 280 L248 256 M586 216 L530 280 L473 256" fill="none" stroke="#171714" stroke-width="5" opacity=".12"/>
+      <path d="M248 600 Q355 616 475 600" fill="none" stroke="#111" stroke-width="2" opacity=".11"/>
+      <path d="M270 278 Q290 404 272 550 M446 267 Q431 415 455 558" stroke="#000" stroke-width="9" opacity=".045" fill="none"/>
+      <path d="M190 250 Q230 237 254 245 M529 250 Q494 237 474 245" stroke="#fff" stroke-width="9" opacity=".1" fill="none"/>
+      <rect x="110" y="80" width="520" height="570" filter="url(#grain)" opacity=".5"/>
+    </g>
+    <path d="M289 102 Q359 198 431 102 L409 99 Q360 155 312 99 Z" fill="#b9b1a1"/><path d="M305 100 Q359 166 415 100" fill="none" stroke="#fffef7" stroke-width="8" opacity=".8"/>
+    <text x="360" y="315" text-anchor="middle" fill="#2b2c25" font-family="Arial,sans-serif" font-size="31" font-weight="800" letter-spacing="-2">INDITEES</text><text x="360" y="337" text-anchor="middle" fill="#626158" font-family="Arial,sans-serif" font-size="10" letter-spacing="3">WEAR YOUR STORY</text><path d="M313 347 H407" stroke="#89965f" stroke-width="3"/>
+    </svg>
