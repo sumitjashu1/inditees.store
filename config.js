@@ -4,7 +4,7 @@ window.INDITEES_CONFIG = {
   domain: 'inditees.store',
   // REQUIRED: Enter your WhatsApp number with country code, digits only.
   // Example format for India: '919876543210' (replace with YOUR number).
-  whatsappNumber: '',
+  whatsappNumber: '918900199158',
   instagramUrl: 'https://www.instagram.com/inditees.shop/',
   instagramHandle: '@inditees.shop',
   // Optional: edit prices below. Leave null for "Ask for price".
